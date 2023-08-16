@@ -1,0 +1,223 @@
+body {
+    height: 4600px; 
+}
+
+
+#navcollapse {
+    padding-left: 5px;
+    margin-left: 300px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: var(--text, #252B42);
+}
+
+/* Set default color for all li elements */
+a.nav-link {
+    color: #252B42;
+    margin-right: 50px;
+}
+
+/* Set active color for the 'Home' li element */
+.navbar-menu .nav li.nav-item.active a.nav-link {
+    color: #FA4A0C;
+}
+
+@media (max-width: 1400px) {
+    #navcollapse {
+        margin-left: 200px !important; /* Change this value as needed */
+    }
+    a.nav-link {
+        margin-right: 40px
+    }
+  }
+/* End of header */
+
+#page1 {
+    background: url(bg\ page1.png) no-repeat center;
+    width: 100%px;
+    height: 619px; 
+}
+
+.hero-content-inner {
+    margin-top: 72px;
+}
+
+.hero-content-inner p {
+    color: #F6F6F6;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 150% */
+letter-spacing: 0.1px;
+}
+
+.hero-content-inner h1 {
+    color: #FFF;
+text-align: center;
+font-family: 'Poppins';
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 137.931% */
+letter-spacing: 0.2px;
+}
+
+.hero-content-inner h2 {
+    margin-top: 25px;
+    color: #F6F6F6;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+}
+
+#playstore {
+
+    width: 236px;
+    padding: 16px 0px;
+    border-radius: 30px;
+    border-width: 0px;
+    border-color: #FA4A0C;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
+    /* text */
+    color: var(--light-text, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+#appstore {
+    width: 236px;
+    border-width: 1px;
+    border-color: white;
+    padding: 16px 0px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
+    margin-left: 100px;
+    /* text */
+    color: var(--light-text, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+#left-image {
+    margin-top: 490px;
+    margin-left: 290px;
+    width: 500px;
+}
+
+#right-image {
+    margin-top: 660px;
+    margin-left: 640px ;
+    width: 500px;
+}
+
+#breakline {
+    width: 884px;
+    height: 3px;
+    margin-top: 500px;
+    background: #E4E4E4;
+}
+
+@media (max-width: 1317px) {
+    #left-image {
+        margin-top: 550px ; /* Change this value as needed */
+    }
+    #right-image {
+        margin-top: 700px
+    }
+  }
+
+/* End page 1 */
+
+#page2-tittle {
+    color: #000;
+font-family: 'Poppins';
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; /* 81.818% */
+letter-spacing: 0.1px;
+}
+
+#content-page2 {
+    width: 568px; 
+    gap: 7px;
+    margin-top: 20%;
+}
+
+#content-page2 h1 {
+    color: #FA4A0C;
+
+/* H3 */
+font-family: 'Montserrat';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 150% */
+letter-spacing: 0.1px;
+}
+
+#content-page2 p1 {
+    color: var(--text, #252B42);
+
+/* H2 */
+font-family: 'Montserrat';
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; /* 142.5% */
+letter-spacing: 0.2px;
+}
+
+#content-page2 p2 {
+    color: var(--second-text, #737373);
+
+/* H4 */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px; /* 158.333% */
+letter-spacing: 0.2px;
+}
+
+/* End of page 1 */
+
+
+#page3 {
+    background: url(page3.png) no-repeat center;
+    width: 100%px;
+    height: 619px; 
+}
+
+#page3-row {
+    margin-top: 15%;
+}
+
+
+#social-logo {
+    margin-left: 17%;
+}
+
+#Copyright {
+    margin-left: 10%;
+}
